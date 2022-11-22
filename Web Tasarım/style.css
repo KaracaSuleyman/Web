@@ -1,0 +1,101 @@
+
+body{
+	background-color: black;
+	background-image:url(yaratik.jpg);
+	background-repeat: repeat-x;
+}
+#sira1 {
+	font-weight: bolder;
+	color: greenyellow;
+	font-family: arial;
+	background-color: green;
+	background: blue;
+	font-size: 25px;
+}
+
+#sira2{
+	font-size: 25px;
+	color: white;
+}
+#sira3{
+	font-size: 25px;
+	color: white;
+}
+#sira4{
+	color: white;
+	font-size: 25px;
+	border-style: solid;
+	border-width: 5px;
+	
+}
+#sira5 {
+
+	border-style: dashed;
+	font-size: 25px;
+	color: white;
+	border-width: 5px;
+}
+#sira6{
+	border-style: double;
+	font-size: 25px;
+	color: white;
+	border-width: 5px;
+}
+#sira7{
+	font-size: 25px;
+	color: white;
+	border-color: yellow;
+	border-style: solid;
+	border-radius: 32px;
+	border-width: 20px;
+}
+#sira8{
+	border:solid 20px  blueviolet;
+	font-size: 25px;
+	color: white;
+}
+#sira9{
+	width: 600px;
+	height: 450px;
+	background: sandybrown;
+}
+#sira9 > p{
+	font-size: 25px;
+	color: blue;
+}
+#sira10{
+	font-size: 25px;
+	color: yellow;
+	width: 1000px;
+	height: 400px;
+	background: blue;
+	margin: 30px;
+
+}
+#sira11{
+	font-size: 25px;
+	color: blue;
+	width: 1000px;
+	height: 400px;
+	background: yellow;
+	margin: 10px 10px 20px 30px;
+	margin-bottom: ;
+
+}
+.class1{
+	font-size: 25px;
+	color: yellow;
+	width: 1000px;
+	height: 400px;
+	background: blue;
+	margin: 30px;
+}
+#c1s1{
+	padding: 20px;
+}
+#c1s2{
+	padding-left: 30px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
