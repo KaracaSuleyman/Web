@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+table, th, td {
+  border: 2px solid green;
+  }
+</style>
+	<meta charset="utf-8">  <!-- türkçe karakterler için -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tüm kısayollar</title>
+</head>
+<body>
+	<p> boşluğa duyarlı değildir daha kalın yazılar oluşturur.</p>
+	<pre> boşluğa duyarlı
+		daha ince yazılar</pre>
+		<pre><b>Kalın yazı yazmak için kullanılan etiketlerdir.</b> Genellikle paragraf etiketi içerisindeki metinler üzerinde kullanılır.</pre>
+ 		<p><b>Kalın yazı yazmak için kullanılan etiketlerdir.</b> Genellikle paragraf etiketi içerisindeki metinler üzerinde kullanılır.</p>
+ <p><strong>Önemli yazı etiketidir.   </strong></p>
+ <p><em> Vurgulanmış yazı etiketidir.  </em></p>
+ <pre><i>Eğik yazı etiketidir. </i></pre>
+ <p><i>Eğik yazı etiketidir. </i></p>
+<p><mark> İşaretli yazı etiketidir. Önemli görülen yerin mark etiketi ile üzeri sarı renkle işaretlenir. </mark>     <del>Silinmiş yazı etiketidir. Özellikle satış yapılan sitelerde değişen fiyatlandırmada eski fiyatı göstermek için kullanılır.</del> <sub>Alt simge eklemek için kullanılır.H<sub>2</sub>O gibi</sub>
+
+</p>
+<pre><mark>İşaretli yazı etiketidir. Önemli görülen yerin mark etiketi 
+ile üzeri sarı renkle işaretlenir.</mark>      <del>Silinmiş yazı etiketidir. 
+Özellikle satış yapılan sitelerde değişen fiyatlandırmada eski fiyatı göstermek için kullanılır.</del><sub>Alt simge eklemek için kullanılır.H<sub>2</sub>O gibi</sub><sup>Üst simge eklemek için kullanılır. x<sup>2</sup>y<sup>3</sup>
+
+
+
+
+
+
+</pre>
+
+
+	<ul> 
+		<li>"liste oluşturmak için önce "< ul >" etiketi açıp kapatıyoruz sonra "< li>" etiketi açıp listeleri oluşturup "< li>" ile kapatıyoruz </li>
+		<li> her bir liste için "< li>" arası yazıyoruz.</li>
+		<li> ikinci sıra</li>
+				<ul>
+					<li>iç liste için yapmak istediğimizin altına yeni "ul" ve "li" serisi açıyoruz</li>
+				    <li> istediğimiz kadar çoğaltabiliriz</li>
+				    </ul>
+		<li> üçüncü sıra
+				<ul>
+					<li>diğer yömtem yazacağımızın alt satır yerinin "li" sini kapatmadan yeni "ul" ve "li" ile liste yapılabilir</li>
+				</ul></li>	</ul>
+
+	<ol> 
+		<li>"ol" ile başlayan sıralı liste oluşturur</li>
+		<li> aynı diğeri gibi hiç bir fark yok</li>
+				<ol><li> bölyede yapılabilir</li></ol></ol>		
+
+
+<div>
+	
+sayfaları div oluştuarak yeni alanlar açılır sayfa ne kadar çok div e bölünürse o kadar iyi olur.
+
+</div>
+<table>
+	<col span="3" style="background-color:blueviolet;" >
+	 <col style="background-color:yellow">
+  <colgroup>
+	<tr>
+			<th>başlık</th>
+			<th>BAŞLIK</th>
+			<th>Başlık</th>
+	</tr>
+	<tr>
+		<td>1.Deneme</td>
+		<td>2.Deneme</td>
+		<td>3.Deneme</td></tr>
+	<tr>
+		<td>1.Deneme</td>
+		<td>2.Deneme</td>
+		<td>3.Deneme</td></tr>
+	<tr>
+		<td>1.Deneme</td>
+		<td>2.Deneme</td>
+		<td>3.Deneme</td></tr>
+
+</table>
+
+<form>
+	<fieldset >
+
+<h1>Adınız:   <input type="text" name=""></h1>
+<h1><label for="name"> Adınızı Giriniz:  </label>
+<input type="text" id="name" ></h1>
+<h1><label for="surname"> Soyadınızı Giriniz:  </label>
+<input type="text" id="surname" ></h1>
+<h1><label for="sifre"> Şifrenizi Giriniz:  </label>
+<input type="password" id="sifre" ></h1>
+<h1><label for="tarih"> Doğum Tarihinizi Giriniz:  </label>
+<input type="date" id="tarih" ></h1></fieldset>
+<h1><label for="dosya"> Yüklemek İçin Bir Dosya Seçiniz:  </label>
+<input type="file" id="dosya" ></h1>
+<fieldset><h1><label > Cinsiyet Seçiniz:</label> </h1>
+<input type="radio"  name="group">  Kadın 
+<input type="radio"  name="group" > Erkek </fieldset>
+<h1><label> Hobileriniz </label></h1>
+<input type="checkbox">Yüzmek
+<input type="checkbox">Kitap Okumak
+<input type="checkbox">Yürüyüş
+<input type="checkbox">Koşu
+<input type="checkbox">Bisiklet
+<br></br>
+
+<h1><label>Şehir Seçiniz</label>
+<select>
+	<option placeholder="Şehirler"></option>
+ 	<option>İzmir</option>
+	<option>İstanbul</option>
+	<option>Ankara</option>
+	<option>Konya</option>	
+</select></h1>
+<br></br>
+<h1><label> Açıklama Ekleyiniz:</label>
+<textarea  rows="3" cols="35" placeholder="Açıklama Giriniz" ></textarea></h1>
+<br></br>
+<fieldset>
+<label>Dosya gönderiniz</label>
+<input type="submit" value="GÖNDER">
+<br></br>
+<br></br>
+<br></br>
+<input type="reset" name="SIFIRLA!"></fieldset></fieldset>
+<br></br>
+<br></br>
+<br></br>
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sBsLn1WTDts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</form>
+
+
+
+
+</body>
+</html>

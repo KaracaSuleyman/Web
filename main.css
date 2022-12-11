@@ -1,0 +1,50 @@
+h3{ <! type ile seçim-->
+	color: blueviolet;
+	font-family: fantasy;
+
+}
+* {
+
+	font-size: x-large;
+	font-family: cursive;
+	font-style: italic;
+
+}
+
+#baslik {   
+	color: goldenrod;
+}
+#baslik2 {  
+	color: indianred;
+}    
+
+.deneme {
+	color: darkblue;
+	font-family: arial;
+	font-style: italic;
+	font-size: xx-large;
+}
+ul li ul li{
+	color: pink;
+	
+}
+
+a:link{
+	color: blue;
+}
+a:visited{
+	color: orange;
+}
+h1+p {
+	color: #FF33E3 ;
+}
+div > h1{
+	color: ;
+}
+a[title]{
+	color: red;
+}
+a[title= crespo]{
+	color: #7AAAF3;
+}
+

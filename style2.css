@@ -1,0 +1,76 @@
+#container{
+	width: 90%;
+	height: 600px; 
+	background: #e4e4f7;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header{
+	width: 100%;
+	height:120px;
+	background-color: black;
+	box-sizing: border-box;
+}
+#logo{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: relative;
+	left: 10px;
+	top: 10px;
+	float: left;
+
+}
+#menu{
+	width: 50%;
+	height: 60px;
+	background-color: white;
+	float: right;
+	position: relative;
+	right: 30px;
+	top: 30px;
+} 
+#content{
+	width: 100%;
+	height: 600px;
+	background-color: gray;
+	margin-top: 10px;
+}
+.contentgruop{
+	width: 25%;
+	height: 50%;
+	float: left;
+}
+#cdiv1{
+
+	background-color: #bbdefb;
+}
+#cdiv2{
+	background-color: white;
+}
+#cdiv3{
+
+	background-color: #bbdefb;
+}
+#cdiv4{
+	background-color: white;
+}
+#cdiv5{
+	background-color: white;
+}
+#cdiv6{
+
+	background-color: #bbdefb;
+}
+#cdiv7{
+	background-color: white;
+}
+#cdiv8{
+
+	background-color: #bbdefb;
+}
+#footer{
+	width: 100%;
+	height: 80px;
+	background-color: black;
+}
